@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+// @ts-ignore
+import PixView from '@/views/PixView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'pix',
-      component: () => import('@/views/PixView.vue'),
+      component: > PixView,
     },
     {
       path: '/form',
