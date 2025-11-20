@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'pix',
-      component: > PixView,
+      component:  PixView,
     },
     {
       path: '/form',
